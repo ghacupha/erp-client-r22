@@ -74,20 +74,20 @@
       "relationshipValidateRules": ["required"]
     },
     {
-      "relationshipName": "deliveryNote",
-      "otherEntityName": "deliveryNote",
-      "relationshipType": "many-to-many",
       "otherEntityField": "deliveryNoteNumber",
+      "otherEntityName": "deliveryNote",
+      "otherEntityRelationshipName": "paymentInvoice",
       "ownerSide": true,
-      "otherEntityRelationshipName": "paymentInvoice"
+      "relationshipName": "deliveryNote",
+      "relationshipType": "many-to-many"
     },
     {
-      "relationshipName": "jobSheet",
-      "otherEntityName": "jobSheet",
-      "relationshipType": "many-to-many",
       "otherEntityField": "serialNumber",
+      "otherEntityName": "jobSheet",
+      "otherEntityRelationshipName": "paymentInvoice",
       "ownerSide": true,
-      "otherEntityRelationshipName": "paymentInvoice"
+      "relationshipName": "jobSheet",
+      "relationshipType": "many-to-many"
     }
   ],
   "service": "serviceImpl"

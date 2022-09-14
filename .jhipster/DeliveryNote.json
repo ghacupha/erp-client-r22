@@ -81,12 +81,12 @@
       "relationshipType": "many-to-many"
     },
     {
-      "relationshipName": "otherPurchaseOrders",
-      "otherEntityName": "purchaseOrder",
-      "relationshipType": "many-to-many",
       "otherEntityField": "purchaseOrderNumber",
+      "otherEntityName": "purchaseOrder",
+      "otherEntityRelationshipName": "deliveryNote",
       "ownerSide": true,
-      "otherEntityRelationshipName": "deliveryNote"
+      "relationshipName": "otherPurchaseOrders",
+      "relationshipType": "many-to-many"
     }
   ],
   "service": "serviceImpl"

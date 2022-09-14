@@ -93,22 +93,22 @@
       "relationshipValidateRules": ["required"]
     },
     {
-      "relationshipName": "workInProgressGroup",
+      "otherEntityField": "sequenceNumber",
       "otherEntityName": "workInProgressRegistration",
-      "relationshipType": "many-to-one",
-      "otherEntityField": "sequenceNumber"
+      "relationshipName": "workInProgressGroup",
+      "relationshipType": "many-to-one"
     },
     {
-      "relationshipName": "settlementCurrency",
+      "otherEntityField": "iso4217CurrencyCode",
       "otherEntityName": "settlementCurrency",
-      "relationshipType": "many-to-one",
-      "otherEntityField": "iso4217CurrencyCode"
+      "relationshipName": "settlementCurrency",
+      "relationshipType": "many-to-one"
     },
     {
-      "relationshipName": "workProjectRegister",
+      "otherEntityField": "catalogueNumber",
       "otherEntityName": "workProjectRegister",
-      "relationshipType": "many-to-one",
-      "otherEntityField": "catalogueNumber"
+      "relationshipName": "workProjectRegister",
+      "relationshipType": "many-to-one"
     }
   ],
   "service": "serviceImpl"

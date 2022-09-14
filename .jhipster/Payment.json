@@ -90,6 +90,6 @@
       "relationshipType": "many-to-one"
     }
   ],
-  "searchEngine": "elasticsearch",
+  "searchEngine": false,
   "service": "serviceImpl"
 }
